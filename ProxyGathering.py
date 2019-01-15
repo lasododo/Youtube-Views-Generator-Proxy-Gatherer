@@ -82,8 +82,10 @@ for z in range(1, 9):
             def start():
                 for x in range(2, 34):
                     try:
-                        u1 = browser.find_element_by_xpath('//*[@id="tbl_proxy_list"]/tbody[1]/tr[' + str(x) + ']/td[1]/abbr').text
-                        u2 = browser.find_element_by_xpath('//*[@id="tbl_proxy_list"]/tbody[1]/tr[' + str(x) + ']/td[2]/a').text
+                        u1 = browser.find_element_by_xpath('//*[@id="tbl_proxy_list"]/tbody[1]/tr['
+                                                           + str(x) + ']/td[1]/abbr').text
+                        u2 = browser.find_element_by_xpath('//*[@id="tbl_proxy_list"]/tbody[1]/tr['
+                                                           + str(x) + ']/td[2]/a').text
                         with open("proxiny.txt", "a") as myfile:
                             myfile.write(str(u1) + ':' + str(u2) + '\n')
                             myfile.close()
@@ -102,7 +104,8 @@ for z in range(1, 9):
                     try:
                         u1 = browser.find_element_by_xpath(
                             '//*[@id="tbl_proxy_list"]/tbody[1]/tr[' + str(x) + ']/td[1]/abbr').text
-                        u2 = browser.find_element_by_xpath('//*[@id="tbl_proxy_list"]/tbody[1]/tr[' + str(x) + ']/td[2]/a').text
+                        u2 = browser.find_element_by_xpath('//*[@id="tbl_proxy_list"]/tbody[1]/tr[' + str(x) +
+                                                           ']/td[2]/a').text
                         with open("proxiny.txt", "a") as myfile:
                             myfile.write(str(u1) + ':' + str(u2) + '\n')
                             myfile.close()
@@ -123,7 +126,8 @@ for z in range(1, 9):
                     try:
                         u1 = browser.find_element_by_xpath(
                             '//*[@id="tbl_proxy_list"]/tbody[1]/tr[' + str(x) + ']/td[1]/abbr').text
-                        u2 = browser.find_element_by_xpath('//*[@id="tbl_proxy_list"]/tbody[1]/tr[' + str(x) + ']/td[2]/a').text
+                        u2 = browser.find_element_by_xpath('//*[@id="tbl_proxy_list"]/tbody[1]/tr['
+                                                           + str(x) + ']/td[2]/a').text
                         with open("proxiny.txt", "a") as myfile:
                             myfile.write(str(u1) + ':' + str(u2) + '\n')
                             myfile.close()
@@ -144,7 +148,8 @@ for z in range(1, 9):
                     try:
                         u1 = browser.find_element_by_xpath(
                             '//*[@id="tbl_proxy_list"]/tbody[1]/tr[' + str(x) + ']/td[1]/abbr').text
-                        u2 = browser.find_element_by_xpath('//*[@id="tbl_proxy_list"]/tbody[1]/tr[' + str(x) + ']/td[2]/a').text
+                        u2 = browser.find_element_by_xpath('//*[@id="tbl_proxy_list"]/tbody[1]/tr['
+                                                           + str(x) + ']/td[2]/a').text
                         with open("proxiny.txt", "a") as myfile:
                             myfile.write(str(u1) + ':' + str(u2) + '\n')
                             myfile.close()
@@ -163,7 +168,8 @@ for z in range(1, 9):
                     try:
                         u1 = browser.find_element_by_xpath(
                             '/html/body/div[1]/div[2]/table/tbody/tr[' + str(x) + ']/td[1]/a').text
-                        u2 = browser.find_element_by_xpath('/html/body/div[1]/div[2]/table/tbody/tr[' + str(x) + ']/td[2]').text
+                        u2 = browser.find_element_by_xpath('/html/body/div[1]/div[2]/table/tbody/tr['
+                                                           + str(x) + ']/td[2]').text
                         with open("proxiny.txt", "a") as myfile:
                             myfile.write(str(u1) + ':' + str(u2) + '\n')
                             myfile.close()
@@ -190,8 +196,10 @@ for z in range(1, 9):
             def start():
                 for x in range(1, 64):
                     try:
-                        u1 = browser.find_element_by_xpath('//*[@id="content-section"]/section[1]/div/table/tbody/tr[' + str(x) + ']/td[1]').text
-                        u2 = browser.find_element_by_xpath('//*[@id="content-section"]/section[1]/div/table/tbody/tr[' + str(x) + ']/td[2]').text
+                        u1 = browser.find_element_by_xpath('//*[@id="content-section"]/section[1]/div/table/tbody/tr['
+                                                           + str(x) + ']/td[1]').text
+                        u2 = browser.find_element_by_xpath('//*[@id="content-section"]/section[1]/div/table/tbody/tr['
+                                                           + str(x) + ']/td[2]').text
                         with open("proxiny.txt", "a") as myfile:
                             myfile.write(str(u1) + ':' + str(u2) + '\n')
                             myfile.close()
@@ -244,7 +252,8 @@ for z in range(1, 9):
             def start():
                 for x in range(3,502):
                     try:
-                        u1 = browser.find_element_by_xpath('/html/body/table[2]/tbody/tr[4]/td/table/tbody/tr[' + str(x) + ']/td[1]/font[2]').text
+                        u1 = browser.find_element_by_xpath('/html/body/table[2]/tbody/tr[4]/td/table/tbody/tr['
+                                                           + str(x) + ']/td[1]/font[2]').text
                         with open("proxiny.txt", "a") as myfile:
                             myfile.write(str(u1) + '\n')
                             myfile.close()
