@@ -3,7 +3,6 @@
 *THIS PROJECT IS AN OLD PROJECT OF MINE, SO IT CAN BE MESSY / NOT WORK AT ALL*
 
 ##Proxy Gatherer:
-
 ###ProxyGathering.py
 
 All you have to do is start it (how to start it you will find at the end of this Readme)
@@ -14,9 +13,7 @@ What does program do in steps:
  3. Put proxy IP in text file
 
 ##Youtube Proxy views Generator:
-
 ###YoutubeProxyViewsGen.py
-
 Amount - How many of them should run at a same time. 
 ( This program uses threading, which allows you to run multiple browsers at a same time. )
 ```
