@@ -1,8 +1,8 @@
-#Youtube Views Generator + Proxy gatherer
+##Youtube Views Generator + Proxy gatherer
 
 *THIS PROJECT IS AN OLD PROJECT OF MINE, SO IT CAN BE MESSY / NOT WORK AT ALL*
 
-#Proxy Gatherer:
+##Proxy Gatherer:
 
 ###ProxyGathering.py
 
@@ -13,7 +13,7 @@ What does program do in steps:
  2. Get the proxy IP
  3. Put proxy IP in text file
 
-#Youtube Proxy views Generator:
+##Youtube Proxy views Generator:
 
 ###YoutubeProxyViewsGen.py
 
